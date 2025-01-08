@@ -1,0 +1,14 @@
+#include <iostream>
+using namespace std;
+Minus(int a,int b,int &c)
+{
+ c= a+b;
+}
+int main()
+{
+ int a,b,c;
+ cout<<"Enter two number"<<endl;
+ cin>>a>>b;
+ Minus(a,b,c);
+ cout<<"answer: "<<c;
+}
